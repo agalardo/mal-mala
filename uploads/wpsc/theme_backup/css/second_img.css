@@ -1,0 +1,84 @@
+/*Изображение в header*/
+#content_container{
+    outline: 1px solid #aaa;
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    height: 235px;
+    overflow: hidden;
+    background-color: #e73644;
+}
+#content_container > div{
+    cursor: pointer;
+}
+#content_container #logo{
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 235px;
+    width: 235px;
+
+}
+/*End*/
+@media screen and (min-width: 600px) {
+    #content_container{
+        outline: 1px solid #aaa;
+        position: relative;
+        margin: 0 auto;
+        width: 985px;
+        height: 235px;
+        overflow: hidden;
+    }
+    #content_container #logo{
+        position: absolute;
+        top:0;
+        left:0;
+        background-image: url(../images/logo.png);
+        background-repeat: no-repeat;
+        height: 235px;
+        width: 235px;
+
+    }
+    #content_container #back1_1{
+        position: absolute;
+        top:0;
+        left:235px;
+        background-image: url(../images/cjf_2013vesna_4.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 235px;
+    }
+    #content_container #back1_2{
+        position: absolute;
+        top:0;
+        left:485px;
+        background-image: url(../images/cjf_2013vesna_3.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 235px;
+
+    }
+    #content_container #back1_3{
+        position: absolute;
+        top:0;
+        left:735px;
+        background-image: url(../images/cjf_2013vesna_7.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 235px;
+    }
+    /*задержку установили в #content_container .pic:hover ,т.к при загружке страницы transition: all 1s; начинает анимацию*/
+    #content_container .pic{
+        transition: all;
+    }
+    #content_container .pic:hover{
+        z-index: 1;
+        transition: all 1s;
+    }
+    #content_container .pic.active {
+        z-index: 1;
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}

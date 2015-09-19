@@ -1,0 +1,248 @@
+#content_container{
+    outline: 1px solid activeborder;
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    height: 235px;
+    overflow: hidden;
+    background-color: #e73644;
+}
+#content_container > div{
+    cursor: pointer;
+}
+#content_container #logo{
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 235px;
+    width: 235px;
+
+}
+/*End*/
+@media screen and (min-width: 600px) {
+    #content_container{
+        outline: 1px solid activeborder;
+        position: relative;
+        margin: 0 auto;
+        width: 985px;
+        height: 1150px;
+        overflow: hidden;
+    }
+    #content_container #logo{
+        position: absolute;
+        top:0;
+        left:0;
+        background-image: url(../images/logo.png);
+        background-repeat: no-repeat;
+        height: 235px;
+        width: 235px;
+
+    }
+    #content_container #back1_1{
+        position: absolute;
+        top:0;
+        left:235px;
+        background-image: url(../images/C84iDnC_EmQ.jpg);
+        background-repeat: no-repeat;
+        height: 452px;
+        width: 250px;
+
+    }
+    #content_container #back1_2{
+        position: absolute;
+        top:0;
+        left:485px;
+        background-image: url(../images/MnXaJaVsldQ.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 386px;
+
+    }
+    #content_container #back1_3{
+        position: absolute;
+        top:0;
+        left:735px;
+        background-image: url(../images/h-AIodcx8Hc.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 386px;
+    }
+    #content_container #back2_1{
+        position: absolute;
+        top:235px;
+        left:0;
+        background-image: url(../images/wvqu1J-6hFE.jpg);
+        background-repeat: no-repeat;
+        height: 415px;
+        width: 235px;
+        float:left;
+    }
+    #content_container #back2_2{
+        position: absolute;
+        top:452px;
+        left:235px;
+        background-image: url(../images/HkWS1RMY6yA.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 349px;
+        float:left;
+    }
+    #content_container #back2_3{
+        position: absolute;
+        top:386px;
+        left:485px;
+        background-image: url(../images/wHFLnZogQwE.jpg);
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 334px;
+    }
+    #content_container #back3_1{
+        position: absolute;
+        top:650px;
+        left:0;
+        background-image: url(../images/6rwLP5P513s.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 235px;
+        float:left;
+    }
+    #content_container #back3_2{
+        position: absolute;
+        top:801px;
+        left:235px;
+        background-image: url(../images/50ZHrSZTw_k.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 349px;
+        float:left;
+    }
+    #content_container #back3_3{
+        position: absolute;
+        top:720px;
+        left:485px;
+        background-image: url(../images/i-6VIWgWiuU.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 430px;
+    }
+    #content_container #back3_4{
+        position: absolute;
+        top:720px;
+        left:735px;
+        background-image: url(../images/W0m1bTn7-Co.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 430px;
+    }
+    #content_container .first_page#back1_1{
+        position: absolute;
+        top:0;
+        left:235px;
+        background-image: url(../images/1_1.jpg);
+        background-repeat: no-repeat;
+        height: 452px;
+        width: 250px;
+
+    }
+    #content_container .first_page#back1_2{
+        position: absolute;
+        top:0;
+        left:485px;
+        background-image: url(../images/1_2.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 386px;
+
+    }
+    #content_container .first_page#back1_3{
+        position: absolute;
+        top:0;
+        left:735px;
+        background-image: url(../images/1_3.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 386px;
+    }
+
+    #content_container .first_page#back2_1{
+        position: absolute;
+        top:235px;
+        left:0;
+        background-image: url(../images/2_1.jpg);
+        background-repeat: no-repeat;
+        height: 415px;
+        width: 235px;
+        float:left;
+    }
+    #content_container .first_page#back2_2{
+        position: absolute;
+        top:452px;
+        left:235px;
+        background-image: url(../images/2_2.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 349px;
+        float:left;
+    }
+    #content_container .first_page#back2_3{
+        position: absolute;
+        top:386px;
+        left:485px;
+        background-image: url(../images/2_3.jpg);
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 334px;
+    }
+    #content_container .first_page#back3_1{
+        position: absolute;
+        top:650px;
+        left:0;
+        background-image: url(../images/3_1.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 235px;
+        float:left;
+    }
+    #content_container .first_page#back3_2{
+        position: absolute;
+        top:801px;
+        left:235px;
+        background-image: url(../images/3_2.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 349px;
+        float:left;
+    }
+    #content_container .first_page#back3_3{
+        position: absolute;
+        top:720px;
+        left:485px;
+        background-image: url(../images/3_3.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 430px;
+    }
+    #content_container .first_page#back3_4{
+        position: absolute;
+        top:720px;
+        left:735px;
+        background-image: url(../images/3_4.jpg);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 430px;
+    }
+    /*задержку установили в #content_container .pic:hover ,т.к при загружке страницы transition: all 1s; начинает анимацию*/
+    #content_container .pic{
+        transition: all;
+    }
+    #content_container .pic:hover{
+        z-index: 1;
+        transition: all 1s;
+    }
+    #content_container .pic.active {
+        z-index: 1;
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
